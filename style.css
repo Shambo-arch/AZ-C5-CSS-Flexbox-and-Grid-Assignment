@@ -1,0 +1,118 @@
+:root {
+    --main-color: rgb(165, 165, 165);
+    --black: #11101000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+/* Upper header Section */
+.logo {
+    background-color: var(--main-color);
+    width: 1500px;
+    height: 150px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: inherit;
+}
+.logo p {
+    text-align: center;
+}
+
+
+/* Sub-Header section */
+.sub-header {
+    background-color: var(--main-color);
+    width: 1500px;
+    height: 330px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Navigation Section */
+.menu {
+    width: 1500px;
+    height: 70px;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.menu .one {
+    background-color: var(--main-color);
+    width: 320px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .two {
+    background-color: var(--main-color);
+    width: 320px;
+    height: 70px;
+}
+
+/* Body Section */
+   .body {
+    display: grid;
+    grid-template-columns: 900px 600px;
+    gap: 2rem;
+    margin: 2rem;
+    height: 20rem;
+   }
+.body .about {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .body .quick-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2rem;
+   }
+
+    .quick-links .quick1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-color);
+        height: 7rem;
+    }
+    .quick-links .quick2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-color);
+        height: 11rem;
+    }
+
+
+/* Footer Section */
+.copyright {
+    background-color: var(--main-color);
+    width: 1500px;
+    height: 300px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
